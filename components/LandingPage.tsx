@@ -10,9 +10,9 @@ interface LandingPageProps {
 
 // Sample data for the gallery
 const GALLERY_ITEMS = {
-  'Qonaq Otağı': 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=2574&auto=format&fit=crop',
-  'Yataq Otağı': 'https://images.unsplash.com/photo-1616594039964-40891a909d99?q=80&w=2670&auto=format&fit=crop',
-  'Mətbəx': 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=2670&auto=format&fit=crop',
+  'Qonaq Otağı': 'https://i.ibb.co/1fRbKBD2/renovation-7.jpg',
+  'Yataq Otağı': 'https://i.ibb.co/LDqj1cD9/renovation-6.jpg',
+  'Mətbəx': 'https://i.ibb.co/GQG4Gz0t/renovation-8.jpg',
   'Ofis': 'https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=2670&auto=format&fit=crop',
 };
 
@@ -151,8 +151,8 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
             <div className="lg:w-1/2 w-full perspective-1000 animate-in fade-in zoom-in duration-1000 delay-300">
                <div className="relative rounded-3xl overflow-hidden border-4 border-slate-800 shadow-2xl shadow-indigo-500/20 bg-slate-900 aspect-[4/3] group transform transition-transform hover:scale-[1.01] duration-500">
                   <BeforeAfterSlider 
-                    originalImage="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=2670&auto=format&fit=crop"
-                    generatedImage="https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=2669&auto=format&fit=crop"
+                    originalImage="https://i.ibb.co/JRwkqT1r/66008-f1hpkeb-L9-FYqn-HCOa3o-WQ.jpg"
+                    generatedImage="https://i.ibb.co/wNcSV3Km/podmayak-Living-Room-3.jpg"
                   />
                   
                   {/* Floating Badge */}
