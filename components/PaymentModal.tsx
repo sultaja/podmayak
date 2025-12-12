@@ -51,7 +51,7 @@ export const PaymentModal: React.FC<PaymentModalProps> = ({ onClose, onSuccess }
                 <CreditCard className="w-8 h-8 text-teal-400" />
               </div>
               <h2 className="text-2xl font-bold text-white">Balans Artır</h2>
-              <p className="text-slate-400 mt-2">25 Token üçün <span className="text-white font-bold">10.00 AZN</span> ödəyin</p>
+              <p className="text-slate-400 mt-2">25 🏠 EvCoin üçün <span className="text-white font-bold">10.00 AZN</span> ödəyin</p>
             </div>
 
             <form onSubmit={handlePayment} className="space-y-4">
@@ -80,7 +80,7 @@ export const PaymentModal: React.FC<PaymentModalProps> = ({ onClose, onSuccess }
               <button type="submit" className="w-full py-4 bg-teal-600 hover:bg-teal-500 text-white font-bold rounded-xl shadow-lg shadow-teal-500/20 flex items-center justify-center gap-2 mt-4 transition-all active:scale-95">
                 <Lock className="w-4 h-4" /> 10.00 AZN Ödə
               </button>
-              
+
               <div className="text-center text-[10px] text-slate-500 mt-4 flex items-center justify-center gap-1">
                 <Lock className="w-3 h-3" /> Ödənişlər Stripe Simulator ilə qorunur
               </div>
@@ -102,7 +102,7 @@ export const PaymentModal: React.FC<PaymentModalProps> = ({ onClose, onSuccess }
               <CheckCircle2 className="w-8 h-8 text-green-500" />
             </div>
             <h3 className="text-2xl font-bold text-white mb-2">Uğurlu Ödəniş!</h3>
-            <p className="text-slate-400 text-sm">Balansınıza <span className="text-white font-bold">25 Token</span> əlavə olundu.</p>
+            <p className="text-slate-400 text-sm">Balansınıza <span className="text-white font-bold">25 🏠 EvCoin</span> əlavə olundu.</p>
           </div>
         )}
       </div>
